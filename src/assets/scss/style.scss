@@ -1,0 +1,35 @@
+@import "colors";
+
+body{
+    background-color: $lightgrey;
+}
+
+.dugme{
+    float: right;
+    margin-right: 10%;
+}
+
+.link{
+
+    text-decoration: none;
+    color:white;
+}
+
+.link:hover{
+
+    text-decoration: none;
+    color:white;
+}
+
+.info{
+    float:left;
+}
+
+.datum{
+
+    float:right;
+}
+
+.login{
+    margin-top:200px;
+}

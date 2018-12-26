@@ -1,0 +1,35 @@
+
+<app-navigacija></app-navigacija>
+
+<div class="btn-group btn-group-toggle mt-3" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <a routerLink="../pacijent-o" class="link"><input type="radio" name="options" id="option1" autocomplete="off" > Opsti podaci </a>
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Primljena terapija
+  </label>
+  <label class="btn btn-secondary">
+    <a routerLink="../pacijent-opu" class="link"> <input type="radio" name="options" id="option3" autocomplete="off"> Urađene analize </a>
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Zahtevane analize
+  </label>
+  <label class="btn btn-secondary">
+    <a routerLink="../unospodataka" class="link"><input type="radio" name="options" id="option3" autocomplete="off"> Unos podataka </a>
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Izmena podataka
+  </label>
+</div>
+
+
+<div class="list-group mt-3">
+  <button type="button" class="list-group-item list-group-item-action active">
+   Opšti podaci:
+  </button>
+  <button type="button" class="list-group-item list-group-item-action">Ime: Petar</button>
+  <button type="button" class="list-group-item list-group-item-action">Prezime: Perić</button>
+  <button type="button" class="list-group-item list-group-item-action">Godište: 1977.</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>JMBG: 1234567890</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>Dijagnoza: TA 357</button>
+</div>
